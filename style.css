@@ -1,5 +1,4 @@
-cing: 0.5px;
-}/* Body Styling */
+/* Body Styling */
 body {
   font-family: 'Roboto', sans-serif;
   background-color: #f9f9f9;
@@ -13,7 +12,7 @@ body {
 /* Sidebar Styling */
 .sidebar {
   position: fixed;
-  top: 20%;
+  top: 0;
   left: 0;
   width: 200px;
   padding: 20px;
@@ -61,6 +60,24 @@ main {
   padding: 40px;
   background-color: #fff;
   flex-grow: 1;
+  margin-top: 100px; /* Space for title */
+}
+
+/* Header Section Styling */
+header {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 36px;
+  color: #6a4c9c;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 18px;
+  color: #777;
 }
 
 /* Section Styling */
@@ -98,5 +115,3 @@ a:hover {
 html {
   scroll-behavior: smooth;
 }
-
-
