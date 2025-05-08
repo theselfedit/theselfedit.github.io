@@ -1,51 +1,80 @@
+
 body {
-margin: 0;
-font-family: 'Georgia', serif;
-background-color: #f9f6f1;
-color: #2b2b2b;
+  margin: 0;
+  font-family: 'Georgia', serif;
+  background-color: #fdf8f4;
+  color: #2b2b2b;
 }
 
 header {
-background-color: #fff;
-text-align: center;
-padding: 2em 1em;
-border-bottom: 1px solid #eee;
+  background-color: #fff;
+  text-align: center;
+  padding: 2em 1em;
+  border-bottom: 1px solid #eee;
 }
 
 h1 {
-font-size: 2.5em;
-margin: 0;
-letter-spacing: 2px;
+  font-size: 2.7em;
+  margin: 0;
+  letter-spacing: 1.5px;
 }
 
 p {
-font-size: 1em;
-line-height: 1.6;
+  font-size: 1em;
+  line-height: 1.6;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2em;
+  background: #fff9f5;
+  text-align: center;
+}
+
+.about img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  margin-bottom: 1em;
+}
+
+.about h2 {
+  margin: 0.5em 0 0.2em;
+  font-size: 1.8em;
+  color: #c74b50;
+}
+
+main {
+  padding: 2em;
 }
 
 .blog-post {
-background: #fff;
-padding: 2em;
-margin: 2em auto;
-max-width: 700px;
-border-radius: 10px;
-box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  background: #fff;
+  padding: 2em;
+  margin: 2em auto;
+  max-width: 700px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.07);
 }
 
 .blog-post .date {
-font-size: 0.9em;
-color: #888;
+  font-size: 0.9em;
+  color: #888;
 }
 
 a {
-text-decoration: none;
-color: #c74b50;
-font-weight: bold;
+  text-decoration: none;
+  color: #c74b50;
+  font-weight: bold;
 }
 
 footer {
-text-align: center;
-padding: 1em;
-color: #999;
-font-size: 0.9em;
+  text-align: center;
+  padding: 1em;
+  color: #999;
+  font-size: 0.9em;
 }
