@@ -9,51 +9,6 @@ body {
   justify-content: flex-start;
 }
 
-/* Sidebar Styling */
-.sidebar {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 200px;
-  padding: 20px;
-  background: rgba(255, 255, 255, 0.85);
-  backdrop-filter: blur(10px);
-  border-radius: 15px;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-  z-index: 1000;
-  margin-top: 20px;
-}
-
-.sidebar h3 {
-  font-size: 18px;
-  font-weight: bold;
-  text-align: center;
-  color: #6a4c9c;
-  margin-bottom: 20px;
-}
-
-.sidebar ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-.sidebar ul li {
-  margin: 10px 0;
-}
-
-.sidebar ul li a {
-  text-decoration: none;
-  color: #6a4c9c;
-  font-weight: 500;
-  font-size: 16px;
-  display: block;
-  transition: color 0.3s ease;
-}
-
-.sidebar ul li a:hover {
-  color: #a86fc1;
-}
-
 /* Main Content Styling */
 main {
   margin-left: 250px; /* Adjust this space to avoid overlap */
